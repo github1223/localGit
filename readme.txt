@@ -56,4 +56,6 @@ c:/Git
      git reset --hard commit_id
 	 
 18. 提交Git备案前，放弃修改
+     git reset HEAD readme.type 
      git checkout -- readme.txt	 
+	 

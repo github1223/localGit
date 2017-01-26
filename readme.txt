@@ -11,3 +11,32 @@ c:/Git
 
 3. execute Setup file.
 
+4. create sub-directory /localGit
+
+5. cd localGit
+
+6. 初始化Git本地仓库
+   git init
+
+7. Notepad++编辑readme.txt文件，并保存到/localGit目录
+
+8. 追加文件到本地仓库
+    git add  readme.txt
+   
+9. 提交Git备案
+    git commit -m "wrote a readme file"   
+
+10. 继续编辑readme.txt
+
+11. 检查文件是否有修改
+     git status
+
+12. 确认文件中何处有修改
+     git diff readme.txt
+
+13. 追加修改文件readme.txt
+     git add readme.txt
+
+14. 提交Git备案
+     git commit -m "update readme file"
+	 

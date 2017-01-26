@@ -39,4 +39,21 @@ c:/Git
 
 14. 提交Git备案
      git commit -m "update readme file"
+
+15. 查看修改记录
+     git log
+   或
+	 git log --pretty=oneline
+
+16. 查看commit_id记录
+     git reflog
+
+17. 修改记录滚回
+     git reset --hard HEAD$^
+	或
+     git reset --hard HAED~2
+    或
+     git reset --hard commit_id
 	 
+18. 提交Git备案前，放弃修改
+     git checkout -- readme.txt	 

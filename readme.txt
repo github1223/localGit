@@ -59,3 +59,17 @@ c:/Git
      git reset HEAD readme.type 
      git checkout -- readme.txt	 
 	 
+19. remote access
+    运行bash
+
+20. 创建远程通信的秘钥
+    ssh-keygen -t rsa -C "baku.nei2012@gmail.com"
+
+21. 登录远程免费GitHub网站
+    在 settings --> SSH and GPG keys --> New SSH Key
+    复制id_rsa.pub的全部内容，Add SSH Key。
+
+22. 创建GitHub远程Git仓库
+	
+23. 本地文件推送到远程Git仓库
+    git remote add origin git@github.com:github1223/localGit.git   

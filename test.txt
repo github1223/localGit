@@ -1,6 +1,7 @@
 test.txt
 
-test git first
+test git first commit 
 
-test git second
+test git second commit
 
+test git three commit
